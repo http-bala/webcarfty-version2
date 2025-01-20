@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /login/
 Allow: /
 
-Sitemap: https://webcarfty-version2.vercel.app/sitemap.xml
+Sitemap: https://www.webcrafty.in//sitemap.xml
