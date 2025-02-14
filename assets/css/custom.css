@@ -1,0 +1,86 @@
+/* WhatsApp Button Styling */
+/* Positioning of buttons container */
+.social-buttons {
+position: fixed;
+right: -10px;
+top: 50%;
+transform: translateY(-50%);
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 5px;
+z-index: 99;
+cursor: pointer;
+transition: all ease-in;
+}
+
+/* Common button styles */
+.social-button {
+display: inline-flex;
+align-items: center;
+background-color: #25D366; /* WhatsApp color */
+color: white;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 16px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+transition: right 0.3s ease;
+}
+
+/* WhatsApp button specific styling */
+.whatsapp-button {
+background-color: #25D366;
+}
+
+.social-buttons:hover {
+right: 2px;
+}
+
+/* Instagram button specific styling */
+.instagram-button {
+background-color: #E1306C; /* Instagram color */
+}
+
+.instagram-button:hover {
+right: 5px;
+}
+
+/* Icon Styling */
+.social-button img {
+margin-right: 10px;
+width: 30px;
+height: 30px;
+}
+
+.custom-heading{
+    font-family: var(--ztc-family-font1); 
+    font-size: var(--ztc-font-size-font-s24);
+    line-height: var(--ztc-font-size-font-s24);
+    font-weight: var(--ztc-weight-semibold);
+    color: var(--ztc-text-text-2);
+    margin-bottom: 20px;
+}
+
+.heading1 .custom-h5{
+    font-family: var(--ztc-family-font1);
+    font-size: var(--ztc-font-size-font-s16);
+    line-height: var(--ztc-font-size-font-s16);
+    font-weight: var(--ztc-weight-medium);
+    color: var(--ztc-text-text-4);
+    border-radius: 8px;
+    transition: all 0.4s;
+    padding: 6px 10px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+.social-button img {
+  width: 25px;
+  height: 25px;
+}
+}
+
